@@ -25,6 +25,13 @@ company:
   team_size: 3
   address: 226 Musselburgh Rise, Dunedin, 9013, Otago, New Zealand
   funding: $500K Seed
+  
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
 
 paginate: 10
 paginate_path: "blog/:num/"
