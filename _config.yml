@@ -3,7 +3,7 @@ description: Станьте партнером Walking Startup и зарабат
 url: https://partner.walkingstartup.ru
 disqus_shortname: walkingstartup
 
-logo: http://cloudcannon.com/img/cloudcannon-logo.png
+logo: https://partner.walkingstartup.ru/img/walking-startup-logo.png
 twitter:
   username: walkingstartup
 
@@ -36,8 +36,9 @@ paginate: 10
 paginate_path: "blog/:num/"
 blog_name: 
 blog_description: 
-permalink: 
-timezone: 
+permalink: pretty
+timezone: Asia/Yekaterinburg
+
 collections:
   gallery:
     name: Gallery
@@ -52,16 +53,8 @@ collections:
   authors:
     name: Authors
     output: false
-  customers:
-    name: Case Studies
-    output: true
-    permalink: /
+
 defaults:
-  - scope:
-      path: ""
-      type: "customers"
-    values:
-      layout: "customer"
   -
     scope:
       path: ""
